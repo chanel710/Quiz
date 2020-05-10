@@ -1,0 +1,80 @@
+*, *::before, *::after {
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.title{
+    padding-top:20px;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: black
+
+}
+.question{
+    padding: 20px;
+    font-size: 22px;
+    background: gray; 
+    border-radius: 20px;
+    margin: 10px 0 10px 0;
+    color: black;
+
+}
+body {
+    padding:0;
+    margin:0;
+    display: flex;
+    width: 75vw;
+    height: 75vw;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+.container {
+    width: 1000px;
+    max-width: 808px;
+    background-color: bisque;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+
+.option {
+    width: 470px;
+    display: inline-block;
+    padding: 10px 0 10px 15px;
+    background: blue;
+    margin: 10px 0 10px 10px;
+    color: white;
+    border-radius: 20px; 
+
+}
+
+.option:hover {
+    background: gray;
+    color: black;
+
+}
+
+.start-btn, .next-btn {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px; 
+
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.result{
+    height: 100px;
+    text-align: center;
+    font-size: 75px;
+}
+.option input:checked .option{
+    background: black;
+    color: black 
+}

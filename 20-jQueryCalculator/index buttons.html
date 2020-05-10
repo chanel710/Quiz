@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- title and standard meta usage -->
+    <title>JavaScript Quiz</title>
+    <!-- link to our style sheet and script -->
+    <link rel="stylesheet" href="C:\JSQuiz\Quiz\style.css" />
+</head>
+<body> <!--Question and answer portion-->
+    <div class="container">
+        <div id="start-container">
+            <button id ="start-btn" class="start-btn">Start</button>
+            </div>
+            <div class="title">Quiz</div>
+            <form name="quiz-form">
+            <div id="question" class="question">
+                <h4>1. In Which HTML element do we put in JavaScript code?</h4>
+                <div id="option" class="answer">
+                <input type="radio" name="q1" value="a"  id="q1a">a. body<br>
+                <input type="radio" name="q1" value="b"  id="q1b">b. script<br>
+                <input type="radio" name="q1" value="c"  id="q1c">c. link<br>
+                <input type="radio" name="q1" value="d"  id="q1d">d. title<br>
+
+                <h4>2. Which of the following is not a data type of JavaScript?</h4>
+                <div id="option" class="answer">
+                <input type="radio" name="q2" value="a"  id="q2a">a. function<br>
+                <input type="radio" name="q2" value="b"  id="q2b">b. string<br>
+                <input type="radio" name="q2" value="c"  id="q2c">c. boolean<br>
+                <input type="radio" name="q2" value="d"  id="q2d">d. null<br>
+               
+
+                <h4>3. Which answer describes the keyword This in JavaScript?</h4>
+                <div id="option" class="answer">
+                <input type="radio" name="q3" value="a"  id="q3a">a. string<br>
+                <input type="radio" name="q3" value="b"  id="q3b">b. object<br>
+                <input type="radio" name="q3" value="c"  id="q3c">c. boolean<br>
+                <input type="radio" name="q3" value="d"  id="q3d">d. function<br>
+
+                <h4>4. Which option best describes the const vs. variable used in JavaScript?</h4>
+                <div id="option" class="answer">
+                <input type="radio" name="q4" value="a"  id="q4a">a. Const never changes and variables never changes.<br>
+                <input type="radio" name="q4" value="b"  id="q4b">b. Const and variables are the same.<br>
+                <input type="radio" name="q4" value="c"  id="q4c">c. Const does not change and variables can change dependent on the equation.<br>
+                <input type="radio" name="q4" value="d"  id="q4d">d. Const does change and variables never change.<br>
+                
+                <h4>5. Primative values can be used when writing code in JavaScript. Which one not correct?</h4>
+                <div id="option" class="answer">
+                <input type="radio" name="q5" value="a"  id="q5a">a. array literal []<br>
+                <input type="radio" name="q5" value="b"  id="q5b">b. object literal {}<br>
+                <input type="radio" name="q5" value="c"  id="q5c">c. srting literals ""<br>
+                <input type="radio" name="q5" value="d"  id="q5d">d. Primative values cannot be used.<br>
+                <input type="submit" value="Submit Answers">
+                </div>   
+                </div>
+            <div class="controls">
+                <button id ="start" class="start-btn">Start</button>
+                <button id ="next-btn" class="next-btn">Next</button>
+                </div>
+            <div id="timer">Timer:</div>
+                </div>
+            <div id="score">Score:</div>
+            </div>
+            </form>
+            <script src="C:\JSQuiz\script.js"></script>
+</body>
+</html>
